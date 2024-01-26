@@ -1,0 +1,7 @@
+- Expand                  = If we use expand we don't need to use width. (auto resize width).
+- Trailing                = Somrab dak Icon in Card or ListTile
+- Width double.infinity   = 
+- MainAxisSpacing (Row)   = Jur Dek 
+- CrossAxisSpacing(Column)= Jur Chor
+- toString                = Covert to lek
+If we need to use stack we need to use position also

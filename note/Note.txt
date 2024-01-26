@@ -1,0 +1,18 @@
+Abstract class គឺជា Class មាន Methods មួយចំនួនមានលក្ខណៈ
+            ​​​​​ ​​​​​​​​  មិនពេញលេញហើយ Abstract class​ អាច refer 
+               ជាមួយ Sub Class ផ្សេងទៀត។
+
+Interface      គឺជា Class ដែលមាន Instance variable សុទ្ធតែ Final Value
+               និង methods ហើយសុទ្ធតែជា abstact​ method ដែលមិនពេញលេញ។
+               - យើងអាចប្រើ Multi Inheritance Interface ពីរបានដោយយើង Implements
+               Ex : class a និង​ class b ។
+               - សម្រាប់នៅក្នុងភាសា dart ដើម្បីទាញយក member របស់ interface
+               មកបាននៅក្នុង class យើងចាំបាច់ត្រូវតែប្រើ keyword "Implements"។
+
+Exception handling គឺជាបញ្ហាដែលអាចកើតមានឡើងដោយចៃដន្យនៅពេលដែលយើងកំពុង
+                   ដំណើរការកម្មវិធី។
+                   - នៅក្នុង handling គេប្រើ keyword "Try,Catch"
+                   ដើម្បីការពារទប់សង្កត់នៅពេលដែលកម្មវិធីរបស់យើងមានបញ្ហាអ្វីមួយ។
+
+Normalization  គឺជាបច្ចេកទេសនៃការរៀបចំទិន្នន័យទៅក្នុងតារាងដែលពាក់ព័ន្ធជាច្រើន 
+            ​​​ ​​ ​​ ដើម្បីបង្រួមអោយតូច។
