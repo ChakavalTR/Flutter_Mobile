@@ -17,7 +17,7 @@ class _Mydetail10State extends State<Mydetail10> {
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.red,
           ),
         ),
       ),
