@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_etec/ETEC_Practice_Home/floatingActionbutton.dart';
+import 'package:flutter_etec/ETEC_Practice_Home/TabbarView.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.blue)),
-      home: Mydetial11(),
+      home: Mydetial12(),
     );
   }
 }
