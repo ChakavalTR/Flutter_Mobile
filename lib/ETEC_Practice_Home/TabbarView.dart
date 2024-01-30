@@ -15,7 +15,8 @@ class _Mydetial12State extends State<Mydetial12> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text('TabbarView',
+          title: Text(
+            'TabbarView',
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
@@ -23,13 +24,17 @@ class _Mydetial12State extends State<Mydetial12> {
             ),
           ),
           bottom: TabBar(tabs: [
-            Tab(icon: Icon(Icons.home),text: 'Home'),
-            Tab(icon: Icon(Icons.favorite),text: 'Favorite'),
+            Tab(icon: Icon(Icons.home), text: 'Home'),
+            Tab(icon: Icon(Icons.favorite), text: 'Favorite'),
           ]),
         ),
         body: TabBarView(children: [
-          Image(image: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg')),
-          Image(image: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg')),
+          Image(
+              image: NetworkImage(
+                  'https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg')),
+          Image(
+              image: NetworkImage(
+                  'https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg')),
         ]),
       ),
     );
