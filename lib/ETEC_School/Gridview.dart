@@ -41,8 +41,8 @@ class _Mydetail4State extends State<Mydetail4> {
               children: List.generate(
                 list.length,
                 (index) => Container(
-                  width: 100,
-                  height: 100,
+                  // width: 100,
+                  // height: 100,
                   decoration: BoxDecoration(
                     color: Colors.amber,
                     image: DecorationImage(
