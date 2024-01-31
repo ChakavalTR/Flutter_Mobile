@@ -31,29 +31,24 @@ class _Mydetail4State extends State<Mydetail4> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Stack(
-          children: [
-            GridView.count(
-              crossAxisCount: 2,
-              crossAxisSpacing: 8,
-              mainAxisSpacing: 8,
-              childAspectRatio: 1 / 1.5,
-              children: List.generate(
-                list.length,
-                (index) => Container(
-                  // width: 100,
-                  // height: 100,
-                  decoration: BoxDecoration(
-                    color: Colors.amber,
-                    image: DecorationImage(
-                        image: NetworkImage('${list[index]}'),
-                        fit: BoxFit.cover),
-                    borderRadius: BorderRadius.circular(40),
-                  ),
-                ),
+        child: GridView.count(
+          crossAxisCount: 2,
+          crossAxisSpacing: 8,
+          mainAxisSpacing: 8,
+          childAspectRatio: 1 / 1.5,
+          children: List.generate(
+            list.length,
+            (index) => Container(
+              // width: 100,
+              // height: 100,
+              decoration: BoxDecoration(
+                color: Colors.amber,
+                image: DecorationImage(
+                    image: NetworkImage('${list[index]}'), fit: BoxFit.cover),
+                borderRadius: BorderRadius.circular(40),
               ),
             ),
-          ],
+          ),
         ),
       ),
     );

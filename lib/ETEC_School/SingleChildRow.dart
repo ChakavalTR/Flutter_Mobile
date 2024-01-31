@@ -40,7 +40,7 @@ class _Mydetail5State extends State<Mydetail5> {
                   child: Stack(
                     children: [
                       Container(
-                        width: 400,
+                        width: double.infinity,
                         height: 300,
                         decoration: BoxDecoration(
                             color: Colors.green,
