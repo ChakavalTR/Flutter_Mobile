@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_etec/ETEC_School/Gridview.dart';
-import 'package:flutter_etec/ETEC_School/SingleChildRow.dart';
+import 'package:flutter_etec/ETEC_School/ListView.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.blue)),
-      home: Mydetail4(),
+      home: Mydetail6(),
     );
   }
 }
