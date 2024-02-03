@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Mydetail1 extends StatefulWidget {
@@ -10,6 +9,7 @@ class Mydetail1 extends StatefulWidget {
 
 class _Mydetail1State extends State<Mydetail1> {
   @override
+  int counter = 1;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -95,7 +95,11 @@ class _Mydetail1State extends State<Mydetail1> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  setState(() {
+                    counter--;
+                  });
+                },
                 child: Text(
                   '-',
                   style: TextStyle(
@@ -107,21 +111,30 @@ class _Mydetail1State extends State<Mydetail1> {
                   backgroundColor: Colors.red,
                 ),
               ),
-              ElevatedButton(
-                onPressed: () {},
-                child: Text(
-                  '0',
-                  style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.black,
-                  ),
+              Container(
+                width: 50,
+                height: 50,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(50),
+                  color: Colors.grey,
                 ),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.white,
+                child: Center(
+                  child: Text(
+                    '$counter',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  setState(() {
+                    counter++;
+                  });
+                },
                 child: Text(
                   '+',
                   style: TextStyle(
