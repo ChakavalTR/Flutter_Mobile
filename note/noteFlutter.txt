@@ -13,3 +13,4 @@ If we need to use stack we need to use position also
 -TabbarView need to use DefaultTabController 
 - Preffix = left
 - Suffix = right
+- Expanded min trov ka width include. (Auto resize)

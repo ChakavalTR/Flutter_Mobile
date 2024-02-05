@@ -14,7 +14,7 @@ class _Mydetail7State extends State<Mydetail7> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Card',
+          'Card Widget',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
@@ -25,7 +25,7 @@ class _Mydetail7State extends State<Mydetail7> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            for (var i = 0; i < 10; i++) cardItem(),
+            for (var i = 0; i < 15; i++) cardItem(),
           ],
         ),
       ),

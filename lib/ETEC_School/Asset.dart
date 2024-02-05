@@ -13,7 +13,7 @@ class _Mydetail8State extends State<Mydetail8> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Asset',
+          'Asset Image',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
